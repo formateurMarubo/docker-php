@@ -1,4 +1,4 @@
-FROM formateurMarubo/php:7.4
+FROM formateurmarubo/php:7.4
 
 ENV PHP_FPM_LISTEN=/run/php-fpm.sock \
     NGINX_LISTEN=80 \
